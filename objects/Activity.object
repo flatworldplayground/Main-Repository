@@ -33,6 +33,14 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ForCase__c</fullName>
+        <externalId>false</externalId>
+        <formula>YEAR( TODAY() ) != 2018</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ForCase_00005727</label>
+        <type>Checkbox</type>
+    </fields>
     <listViews>
         <fullName>AllActivities</fullName>
         <filterScope>Team</filterScope>
