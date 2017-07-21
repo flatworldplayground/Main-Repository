@@ -34,12 +34,79 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>Booker_T__c</fullName>
+        <externalId>false</externalId>
+        <label>Booker T</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Booking_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Color__c</fullName>
+        <externalId>false</externalId>
+        <label>Colorz</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Gray</fullName>
+                    <default>false</default>
+                    <label>Gray</label>
+                </value>
+                <value>
+                    <fullName>Grey</fullName>
+                    <default>false</default>
+                    <label>Grey</label>
+                </value>
+                <value>
+                    <fullName>Griy</fullName>
+                    <default>false</default>
+                    <label>Griy</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ForCase__c</fullName>
         <externalId>false</externalId>
         <formula>YEAR( TODAY() ) != 2018</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>ForCase_00005727</label>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>House__c</fullName>
+        <externalId>false</externalId>
+        <label>House</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Gryffindor</fullName>
+                    <default>false</default>
+                    <label>Gryffindor</label>
+                </value>
+                <value>
+                    <fullName>Slitherin</fullName>
+                    <default>false</default>
+                    <label>Slitherin</label>
+                </value>
+                <value>
+                    <fullName>Hufflepuff</fullName>
+                    <default>false</default>
+                    <label>Hufflepuff</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <listViews>
         <fullName>AllActivities</fullName>

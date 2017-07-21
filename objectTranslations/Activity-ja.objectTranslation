@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Booker T --></label>
+        <name>Booker_T__c</name>
+    </fields>
+    <fields>
+        <label><!-- Colorz --></label>
+        <name>Color__c</name>
+        <picklistValues>
+            <masterLabel>Gray</masterLabel>
+            <translation>Esurayturi Gure</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grey</masterLabel>
+            <translation>abito Gure</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Griy</masterLabel>
+            <translation>Beri Gure</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ForCase_00005727 --></label>
+        <name>ForCase__c</name>
+    </fields>
+    <fields>
+        <label>Balay Desu</label>
+        <name>House__c</name>
+        <picklistValues>
+            <masterLabel>Gryffindor</masterLabel>
+            <translation>Gurifindoru</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hufflepuff</masterLabel>
+            <translation>Hafuripafu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slitherin</masterLabel>
+            <translation>Suriderin</translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

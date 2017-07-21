@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Buker TEE</label>
+        <name>Booker_T__c</name>
+    </fields>
+    <fields>
+        <label><!-- Colorz --></label>
+        <name>Color__c</name>
+        <picklistValues>
+            <masterLabel>Gray</masterLabel>
+            <translation>Esuraituri Gure</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grey</masterLabel>
+            <translation>Gure</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Griy</masterLabel>
+            <translation>Beri Gure</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ForCase_00005727 --></label>
+        <name>ForCase__c</name>
+    </fields>
+    <fields>
+        <label><!-- House --></label>
+        <name>House__c</name>
+        <picklistValues>
+            <masterLabel>Gryffindor</masterLabel>
+            <translation><!-- Gryffindor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hufflepuff</masterLabel>
+            <translation><!-- Hufflepuff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slitherin</masterLabel>
+            <translation><!-- Slitherin --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

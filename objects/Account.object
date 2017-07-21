@@ -212,6 +212,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Premium_Account__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checks if Account has Premium Priviledges</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checks if Account has Premium Priviledges</inlineHelpText>
+        <label>Premium Account</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Rating</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
