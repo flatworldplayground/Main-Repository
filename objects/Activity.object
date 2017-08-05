@@ -45,6 +45,13 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Box__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Box</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Color__c</fullName>
         <externalId>false</externalId>
         <label>Colorz</label>
