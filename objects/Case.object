@@ -187,6 +187,49 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Primary_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bar</fullName>
+                    <default>false</default>
+                    <label>Bar</label>
+                </value>
+                <value>
+                    <fullName>Beach</fullName>
+                    <default>false</default>
+                    <label>Beach</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Structural</controllingFieldValue>
+                <valueName>Bar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electrical</controllingFieldValue>
+                <controllingFieldValue>Electronic</controllingFieldValue>
+                <controllingFieldValue>Mechanical</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Structural</controllingFieldValue>
+                <valueName>Beach</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Priority</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -332,6 +375,16 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>X2nd_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>2nd Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
         <fullName>call_2nd_phone_number__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -398,6 +451,7 @@
         <lookupPhoneDialogsAdditionalFields>NAME</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CASES.STATUS</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>00N0Y00000IuuB4</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>CASES.CASE_NUMBER</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
