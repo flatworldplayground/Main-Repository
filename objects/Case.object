@@ -217,6 +217,7 @@
                 <controllingFieldValue>Mechanical</controllingFieldValue>
                 <controllingFieldValue>Other</controllingFieldValue>
                 <controllingFieldValue>Structural</controllingFieldValue>
+                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
                 <valueName>Bar</valueName>
             </valueSettings>
             <valueSettings>
@@ -225,6 +226,7 @@
                 <controllingFieldValue>Mechanical</controllingFieldValue>
                 <controllingFieldValue>Other</controllingFieldValue>
                 <controllingFieldValue>Structural</controllingFieldValue>
+                <controllingFieldValue>Customer Content Feedback</controllingFieldValue>
                 <valueName>Beach</valueName>
             </valueSettings>
         </valueSet>
