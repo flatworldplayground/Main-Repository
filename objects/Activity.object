@@ -115,6 +115,34 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>IcePicklist5998__c</fullName>
+        <externalId>false</externalId>
+        <label>IcePicklist5998</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Meat</fullName>
+                    <default>false</default>
+                    <label>Meat</label>
+                </value>
+                <value>
+                    <fullName>Milk</fullName>
+                    <default>false</default>
+                    <label>Milk</label>
+                </value>
+                <value>
+                    <fullName>Vegetables</fullName>
+                    <default>false</default>
+                    <label>Vegetables</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <listViews>
         <fullName>AllActivities</fullName>
         <filterScope>Team</filterScope>
