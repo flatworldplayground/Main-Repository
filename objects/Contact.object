@@ -104,6 +104,13 @@
         <fields>OwnerId</fields>
         <label>CaseTest</label>
     </compactLayouts>
+    <compactLayouts>
+        <fullName>Test6Test6207207</fullName>
+        <fields>Name</fields>
+        <fields>Title</fields>
+        <fields>Sex__c</fields>
+        <label>Test6207</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
