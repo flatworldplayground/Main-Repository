@@ -34,6 +34,17 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>Booker_T__c</fullName>
+        <externalId>false</externalId>
+        <label>Booker T</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Booking_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>water__c</fullName>
         <externalId>false</externalId>
         <label>water</label>
